@@ -113,7 +113,7 @@ EA2_Biblioteca_Java/
 
 # 6. Descripción de las clases
 
-## 👤 Usuario
+## Usuario
 
 La clase `Usuario` representa a las personas que utilizan el sistema de biblioteca.
 
