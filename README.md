@@ -298,7 +298,7 @@ De esta manera se separan algunas operaciones generales de las clases que repres
 
 El código implementa las principales relaciones definidas en el diagrama de clases.
 
-## 🔹 Asociación Usuario - Préstamo
+## Asociación Usuario - Préstamo
 
 Un usuario puede realizar varios préstamos.
 
@@ -700,11 +700,3 @@ También se aplicaron los principios SOLID de responsabilidad única, abierto/ce
 Finalmente, el uso de Git y GitHub permitió trabajar de manera colaborativa y dejar evidencia de los aportes realizados por cada integrante del grupo.
 
 ---
-
-## Proyecto académico
-
-**Sistema de Biblioteca - Actividad Evaluativa 2**
-
-**Programación Orientada a Objetos II - Avanzada**
-
-**2026**
