@@ -3,7 +3,7 @@
 ## Sistema de Biblioteca 
 
 
-## 📌 Información de la actividad
+## Información de la actividad
 
 **Tema:** Sistema de Biblioteca
 
