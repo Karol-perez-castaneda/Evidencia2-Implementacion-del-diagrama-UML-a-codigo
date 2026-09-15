@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Java: Main",
+      "type": "java",
+      "request": "launch",
+      "mainClass": "biblioteca.app.Main",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "classpath": "${workspaceFolder}/out",
+      "vmArgs": [
+        "-Dfile.encoding=UTF-8"
+      ]
+    }
+  ]
+}
