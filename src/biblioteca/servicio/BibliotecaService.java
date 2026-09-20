@@ -1,10 +1,10 @@
 
 package biblioteca.servicio;
 
+import biblioteca.modelo.Autor;
+import biblioteca.modelo.Libro;
 import biblioteca.modelo.Prestamo;
 import biblioteca.modelo.Usuario;
-import biblioteca.modelo.Libro;
-import biblioteca.modelo.Autor;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,5 +69,21 @@ public class BibliotecaService {
         public List<Prestamo> getPrestamos() {
             return prestamos;
         }
+   
+   public void mostrarLibrosDisponibles() {
+    System.out.println("\n---------- LIBROS DISPONIBLES ----------");
+
+    for (Libro libro : libros) {
+        if (libro.getEstado() == EstadoDisponibilidad.DISPONIBLE) 
+    {
+            System.out.println("Título: " + libro.getTitulo());
+        }
     }
+}
+
+}
+
+
+        
+    
 

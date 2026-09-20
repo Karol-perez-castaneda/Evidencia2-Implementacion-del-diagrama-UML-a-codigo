@@ -1,13 +1,13 @@
 
 package biblioteca.main;
 
-import biblioteca.servicio.BibliotecaService;
-import biblioteca.servicio.EstadoDisponibilidad;
+import biblioteca.modelo.Autor;
+import biblioteca.modelo.Libro;
+import biblioteca.modelo.LibroDigital;
 import biblioteca.modelo.Prestamo;
 import biblioteca.modelo.Usuario;
-import biblioteca.modelo.LibroDigital;
-import biblioteca.modelo.Libro;
-import biblioteca.modelo.Autor;
+import biblioteca.servicio.BibliotecaService;
+import biblioteca.servicio.EstadoDisponibilidad;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -191,9 +191,10 @@ public class Main {
                 );
 
         biblioteca.registrarPrestamo(
-                prestamo
+                prestamo 
+        
         );
-
+        biblioteca.mostrarLibrosDisponibles();
         System.out.println(
                 "Estado del libro: "
                 + libro.getEstado()
